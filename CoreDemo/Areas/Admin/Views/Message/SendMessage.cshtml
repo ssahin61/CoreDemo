@@ -1,0 +1,59 @@
+﻿@model Message2
+
+@{
+	ViewData["Title"] = "SendMessage";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="wrapper wrapper-content">
+	<div class="row">
+		<div class="col-lg-3">
+			<div class="ibox ">
+				<div class="ibox-content mailbox-content">
+					<div class="file-manager">
+						<a class="btn btn-block btn-primary compose-mail" href="mail_compose.html">Yeni Mesaj Oluştur</a>
+						<div class="space-25"></div>
+						<h5>Klasörler</h5>
+						<ul class="folder-list m-b-md" style="padding: 0">
+							<li><a href="/Admin/Message/Inbox"> <i class="fa fa-inbox "></i> Gelen Mesajlar <span class="label label-warning float-right">16</span> </a></li>
+							<li><a href="/Admin/Message/Sendbox"> <i class="fa fa-envelope-o"></i> Giden Mesajlar</a></li>
+							<li><a href="mailbox.html"> <i class="fa fa-certificate"></i> Yıldızlı Mesajlar</a></li>
+							<li><a href="mailbox.html"> <i class="fa fa-file-text-o"></i> Taslaklar <span class="label label-danger float-right">2</span></a></li>
+							<li><a href="mailbox.html"> <i class="fa fa-trash-o"></i> Çöp Kutusu</a></li>
+						</ul>
+						<h5>Kategoriler</h5>
+						<ul class="category-list" style="padding: 0">
+							<li><a href="#"> <i class="fa fa-circle text-navy"></i> İş </a></li>
+							<li><a href="#"> <i class="fa fa-circle text-danger"></i> Dökümanlar</a></li>
+							<li><a href="#"> <i class="fa fa-circle text-primary"></i> Sosyal</a></li>
+							<li><a href="#"> <i class="fa fa-circle text-info"></i> Tanıtım</a></li>
+							<li><a href="#"> <i class="fa fa-circle text-warning"></i> Talepler</a></li>
+						</ul>
+
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-9 animated fadeInRight">
+			<div class="mail-box-header">
+				<h1>Yeni Mesaj Oluştur</h1>
+				<br />
+
+				@using (Html.BeginForm("SendMessage", "Message", FormMethod.Post))
+				{
+					@Html.Label("Alıcı ismi")
+					<input type="text" class="form-control" />
+					<br />
+					@Html.Label("Konu")
+					@Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+					<br />
+					@Html.Label("Mesaj")
+					@Html.TextAreaFor(x => x.MessageDetails, 10, 3, new { @class = "form-control" })
+					<br />
+					<button class="btn btn-info">Mesaj Gönder</button>
+				}
+			</div>
+		</div>
+	</div>
+</div>

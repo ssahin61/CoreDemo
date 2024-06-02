@@ -1,0 +1,32 @@
+﻿﻿
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Blog Listesini Excel Formatında İndir</h1>
+
+<div class="col-12 row">
+	<div class="col-6 p-2">
+		<button class="btn btn-success p-3 m-2" onclick="StaticDowlandExcel()"> Static Excel Dosyasını indir   </button>
+		<button class="btn btn-primary p-3 m-2" onclick="DinamikDowlandExcel()"> Dinamik Excel Dosyasını indir   </button>
+
+	</div>
+
+	<div class="col-6">
+	</div>
+</div>
+
+	<script>
+
+		function StaticDowlandExcel() {
+
+			window.open("/Admin/Blog/ExportStaticExcelBlogList");
+		}
+
+		function DinamikDowlandExcel() {
+
+			window.open("/Admin/Blog/ExportDinamikExcelBlogList");
+		}
+
+	</script>

@@ -1,0 +1,74 @@
+﻿<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 footer-grid-agileits-w3ls text-left">
+				<h3>Hakkımızda</h3>
+				<p>
+					"Hoş geldiniz! Biz WebBlog, her şeyi kapsayan geniş bir bilgi ve
+					eğlence platformu olarak, meraklı zihinlere ilham veren, öğrenmeye
+					teşvik eden ve bilgiye aç bir topluluk oluşturmayı hedefleyen bir ekibiz.
+					WebBlog, farklı ilgi alanlarına sahip herkes için bir ev sunar.
+					Sadece bir blog değil, aynı zamanda bir bilgi merkezi olma amacını taşıyoruz...
+				</p>
+				<div class="read">
+					<a href="/About/Index/" class="btn btn-primary read-m">Devamını Oku</a>
+				</div>
+			</div>
+			<div class="col-lg-4 footer-grid-agileits-w3ls text-left">
+
+				@await Component.InvokeAsync("BlogLast3Post")
+
+			</div>
+			<!-- subscribe -->
+			<div class="col-lg-4 subscribe-main footer-grid-agileits-w3ls text-left">
+				<h2>Bültenimize abone olun!</h2>
+				@await Html.PartialAsync("~/Views/Newsletter/SubscribeMail.cshtml")
+				<!-- //subscribe -->
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="footer-cpy text-center">
+			<div class="footer-social">
+				<div class="copyrighttop">
+					<ul>
+						<li class="mx-3">
+							<a class="facebook" href="#">
+								<i class="fab fa-facebook-f"></i>
+								<span>Facebook</span>
+							</a>
+						</li>
+						<li>
+							<a class="facebook" href="#">
+								<i class="fab fa-twitter"></i>
+								<span>Twitter</span>
+							</a>
+						</li>
+						<li class="mx-3">
+							<a class="facebook" href="#">
+								<i class="fab fa-google-plus-g"></i>
+								<span>Google+</span>
+							</a>
+						</li>
+						<li>
+							<a class="facebook" href="#">
+								<i class="fab fa-pinterest-p"></i>
+								<span>Pinterest</span>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			<div class="w3layouts-agile-copyrightbottom">
+				<p>
+					© @DateTime.Now.Year Bütün Hakları Saklıdır | Design by Capitanoes
+				</p>
+
+			</div>
+		</div>
+
+		<!-- //footer -->
+
+
+	</div>
+</footer>

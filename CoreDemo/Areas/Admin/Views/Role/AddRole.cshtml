@@ -1,0 +1,23 @@
+﻿@model AppRole
+
+@{
+	ViewData["Title"] = "AddRole";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Rol Ekleme Sayfası</h1>
+
+<form asp-controller="Role" asp-action="AddRole" method="post">
+
+	<div class="form-group">
+		<label>Rol Başlığı</label>
+		<input asp-for="Name" class="form-control" />
+	</div>
+
+	<div asp-validation-summary="ModelOnly">
+	</div>
+
+	<button class="btn btn-outline-info">Kaydet</button>
+	<a href="/Admin/Role/Index" style="margin-left:7px" class="btn btn-outline-secondary">Geri Dön</a>
+
+</form>

@@ -1,0 +1,48 @@
+﻿@model EntityLayer.Concrete.Blog
+
+@{
+	ViewData["Title"] = "BlogAdd";
+	Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<h1>Yeni Blog Girişi</h1>
+<br />
+
+<form asp-controller="Blog" asp-action="BlogAdd" method="post">
+	<div class="form-group">
+		<label asp-for="BlogTitle" class="control-label"></label>
+		<input asp-for="BlogTitle" class="form-control" />
+		<span asp-validation-for="BlogTitle" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="BlogImage" class="control-label"></label>
+		<input asp-for="BlogImage" class="form-control" />
+		<span asp-validation-for="BlogImage" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="BlogThumbnailImage" class="control-label"></label>
+		<input asp-for="BlogThumbnailImage" class="form-control" />
+		<span asp-validation-for="BlogThumbnailImage" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="CategoryID" class="control-label"></label>
+		<select asp-for="CategoryID" asp-items="@((List<SelectListItem>)ViewBag.cv)" class="form-control"></select>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="BlogContent" class="control-label"></label>
+		<textarea asp-for="BlogContent" rows="15" cols="3" class="form-control"></textarea>
+		<span asp-validation-for="BlogContent" class="text-danger"></span>
+	</div>
+
+	<br />
+	<br />
+	<br />
+
+	<button type="submit" class="btn btn-primary">Oluştur</button>
+</form>
+
+
