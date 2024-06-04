@@ -12,7 +12,7 @@ Visual Studio 2022 editöründe, ASP.NET Core 5.0 ve Entity Framework Core ile o
 ![Ekran Görüntüsü (50)](https://github.com/ssahin61/CoreDemo/assets/170267031/7fc7f35b-bcbe-4a86-a308-b48dd9d462f8)
 ![Ekran Görüntüsü (51)](https://github.com/ssahin61/CoreDemo/assets/170267031/c2589c91-da9c-4e98-87bf-fc903b886b0a)
 ![Ekran Görüntüsü (52)](https://github.com/ssahin61/CoreDemo/assets/170267031/0767a543-264a-4ccf-b163-fcb7bd715cc2)
-![Ekran Görüntüsü (53)](https://github.com/ssahin61/CoreDemo/assets/170267031/f6465b4d-a7f8-4562-a8c1-a19d177ecab3
+![Ekran Görüntüsü (53)](https://github.com/ssahin61/CoreDemo/assets/170267031/5a2e3f68-cb07-4cdf-b5c2-e163c1deb535)
 ![Ekran Görüntüsü (54)](https://github.com/ssahin61/CoreDemo/assets/170267031/c103a36d-08e6-4e5d-af81-3c0705f5330f)
 ![Ekran Görüntüsü (55)](https://github.com/ssahin61/CoreDemo/assets/170267031/7c4ff86d-3e26-45a1-8c1e-45dbd1295592)
 ![Ekran Görüntüsü (56)](https://github.com/ssahin61/CoreDemo/assets/170267031/ab447466-98b6-4ac5-ab23-c184eb2f6381)
