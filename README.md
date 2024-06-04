@@ -1,1 +1,18 @@
 Visual Studio 2022 editöründe, ASP.NET Core 5.0 ve Entity Framework Core ile oluşturulan N Tier Architecture mimarisine sahip bir blog sitesi geliştirilmiştir. Bu site, Codefirst yaklaşımıyla MSSQL veritabanını kullanmakta ve C# programlama diliyle backend tarafı kodlanmıştır. API'ler aracılığıyla desteklenen bu projede, kullanıcılar, yazarlar ve yöneticiler için ayrı paneller bulunmaktadır. Arayüz tasarımında HTML, CSS ve Bootstrap kullanılmıştır.
+
+![Ekran Görüntüsü (41)](https://github.com/ssahin61/CoreDemo/assets/170267031/c1ef98e5-13fb-4fbb-85de-04f19906e721)
+![Ekran Görüntüsü (42)](https://github.com/ssahin61/CoreDemo/assets/170267031/0ead2e6c-7e35-4f7f-b7ad-79bcd191887a)
+![Ekran Görüntüsü (43)](https://github.com/ssahin61/CoreDemo/assets/170267031/589fafbf-bd8e-4fc4-b2d6-09a1ca6fcbf6)
+![Ekran Görüntüsü (44)](https://github.com/ssahin61/CoreDemo/assets/170267031/b3fef8e9-814c-4ba0-a93e-1a8d10033656)
+![Ekran Görüntüsü (45)](https://github.com/ssahin61/CoreDemo/assets/170267031/647d36e7-065e-4b33-8382-f89a5a841bb1)
+![Ekran Görüntüsü (46)](https://github.com/ssahin61/CoreDemo/assets/170267031/cf8c92f6-06e7-46c4-b599-298977bdeba9)
+![Ekran Görüntüsü (47)](https://github.com/ssahin61/CoreDemo/assets/170267031/457f3902-7a36-4bdc-966e-7b16d23507de)
+![Ekran Görüntüsü (48)](https://github.com/ssahin61/CoreDemo/assets/170267031/dfe86637-1ad2-4cd3-b91f-d7c6c76ae0e4)
+![Ekran Görüntüsü (49)](https://github.com/ssahin61/CoreDemo/assets/170267031/f595b41a-3203-426e-9911-f466bbc74fc1)
+![Ekran Görüntüsü (50)](https://github.com/ssahin61/CoreDemo/assets/170267031/17a7b1bb-e6f6-42ec-89d9-8e7965736a28)
+![Ekran Görüntüsü (51)](https://github.com/ssahin61/CoreDemo/assets/170267031/58f1c705-fb7c-414c-93a0-bf8b9dab3afd)
+![Ekran Görüntüsü (52)](https://github.com/ssahin61/CoreDemo/assets/170267031/1940ac5c-4820-4aaf-88bb-54c85588d330)
+![Ekran Görüntüsü (53)](https://github.com/ssahin61/CoreDemo/assets/170267031/cc454c09-be3a-4483-a35c-053b604608bd)
+![Ekran Görüntüsü (54)](https://github.com/ssahin61/CoreDemo/assets/170267031/c740861b-4cbe-4ee4-a361-36e377776923)
+![Ekran Görüntüsü (55)](https://github.com/ssahin61/CoreDemo/assets/170267031/d04e0eb4-e99a-49c7-be2a-6b43417091ad)
+![Ekran Görüntüsü (57)](https://github.com/ssahin61/CoreDemo/assets/170267031/b785333d-9894-403f-a754-e2ee1d8f2a29)
